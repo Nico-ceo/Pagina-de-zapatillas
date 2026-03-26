@@ -17,14 +17,6 @@ img {
     display: block;
 }
 
-/* Título */
-h1 {
-    font-size: 22px;
-    text-align: center;
-
-
-}
-
 
 
 /* Footer */
@@ -35,5 +27,66 @@ footer {
     bottom: 0;
     width: 100%;
 
+
+}
+
+/*experimento*/
+.menu {
+    position: relative;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+
+}
+
+/* Botón */
+.titulo {
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.ventanita {
+    position: absolute;
+    top: 100%;
+    left: -118%;
+    width: 200px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+/* Links */
+.ventanita a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.ventanita a:hover {
+    background: #dbdbdb;
+}
+
+/*   se mantiene abierto cuando pasa el cursor nomas */
+.menu:hover .ventanita {
+    opacity: 1;
+    visibility: visible;
 
 }
