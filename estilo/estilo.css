@@ -1,25 +1,17 @@
-/* Reset TOTAL */
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
-/* Body */
 body {
+
     font-family: Arial, sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-/* Header SIN espacios */
-header {
-    width: 100%;
-}
 
-/* Logo pegado a los bordes */
-#logo {
+img {
     width: 100%;
     height: auto;
     display: block;
@@ -29,18 +21,19 @@ header {
 h1 {
     font-size: 22px;
     text-align: center;
-    margin: 10px 0;
+
+
 }
 
-/* Main */
-main {
-    flex: 1;
-    width: 100%;
-}
+
 
 /* Footer */
 footer {
     width: 100%;
     text-align: center;
-    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+
 }
